@@ -24,7 +24,7 @@ public class SimpleClass implements Contract {
 
     @Override
     public LocalDate showContractExpiry() {
-        return LocalDate.of(2030, 12, 30);
+        return LocalDate.of(2030, 12, 31);
     }
 
     private static class SimpleInnerClass {
