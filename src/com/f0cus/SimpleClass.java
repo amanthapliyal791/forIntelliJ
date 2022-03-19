@@ -19,7 +19,7 @@ public class SimpleClass implements Contract {
 
     @Override
     public String showCompleteContract() {
-        return "Contract should be obeyed at all times";
+        return "Contract should be obeyed at all times, @Copyright 2022";
     }
 
     @Override
