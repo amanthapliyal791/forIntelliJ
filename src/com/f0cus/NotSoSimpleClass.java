@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class NotSoSimpleClass implements Contract {
     @Override
     public String showCompleteContract() {
-        return null;
+        return "Terms and Conditions Apply!";
     }
 
     @Override
