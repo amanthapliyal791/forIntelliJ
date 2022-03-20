@@ -8,6 +8,13 @@ public class SimpleClass implements Contract {
 
     private String result;
 
+    public SimpleClass() {
+    }
+
+    public SimpleClass(String result) {
+        this.result = result;
+    }
+
     /**
      * Returns result of some calculations
      *
