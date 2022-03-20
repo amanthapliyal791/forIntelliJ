@@ -16,7 +16,7 @@ public class FirstProject {
         System.out.println(con.showCompleteContract());
         System.out.println("Bye!!");
 
-        List<String> names = List.of("a","b","c");
+        List<String> names = List.of("a","b","c","newly added");
 
         for (String name : names) {
             System.out.println("name = " + name);
